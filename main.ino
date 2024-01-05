@@ -57,11 +57,14 @@ class circleLed {
     int getBlue() const {return blue;}
     float getAngle() const {return angle;}
 
-    void setPin(int r) {pin = p;}
+    void setPin(int p) {pin = p;}
     void setRed(int r) {red = r;}
     void setGreen(int g) {green = g;}
     void setBlue(int b) {blue = b;}
     void setAngle(float a) {angle = a;}
+    void softBlink(int time){
+      // set the intensity to be equal to x for y seconds;
+    }
 
   private:
     int pin;
@@ -106,14 +109,30 @@ void turnMotor(float changeAngle=0, int desiredAngle=knobAngle){
  
 }
 
-void vibrateDial(str mode='click'){
+void vibrateDial(int mode=0){
   /*
   This function causes a vibration in the dial, with different types based on the selected mode.
   Possible modes:
   - 'click': simulates a button press
-  -
+  - 'error': simulates a no press
   */
- turnMotor()
+ if (mode=0){ // Simulate Click
+  turnMotor(2);
+  delay(100);
+  turnMotor(-2);
+  Serial.print('Click simulated')
+ } else if(mode=1){
+  turnMotor(2);
+  delay(100);
+  turnMotor(-2);
+  delay(100)
+  turnMotor(2);
+  delay(100);
+  turnMotor(-2);
+  delay(100)
+  Serial.print('Error click simulated')
+ }
+
 }
 
 void setup() {
@@ -128,7 +147,7 @@ void setup() {
   circleLed circleLed8(0, 0, 0, ledPos8);
 
   // Interupt for On/Off button
-  pinMode(buttonPin, INPUT_PULLUP); // Set the button pin as INPUT with pull-up resistor
+  pinMode(buttonPin, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(buttonPin), onPress, CHANGE);
 
   //Setup of strain sensors
