@@ -6,7 +6,11 @@
 // SN74HC595DR:https://datasheet.lcsc.com/lcsc/1809192316_Texas-Instruments-SN74HC595DR_C10092.pdf, https://www.instructables.com/Shift-Register-LED-Array-Arduino-5-Examples/ - shift register
 // HX711: https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf - strain gauge sensor
 
-// TMC6300-LA: https://datasheet.lcsc.com/lcsc/2211181800_TRINAMIC-Motion-Control-GmbH-TMC6300-LA-T_C5274455.pdf
+// TMC6300-LA: https://datasheet.lcsc.com/lcsc/2211181800_TRINAMIC-Motion-Control-GmbH-TMC6300-LA-T_C5274455.pdf - BLDC motor controll
+// VEML7700-TR: https://datasheet.lcsc.com/lcsc/2211160930_Vishay-Intertech-VEML7700-TR_C504893.pdf - Ambient light sensor
+// SK6805 SIDE-G: http://www.normandled.com/upload/201912/SK6805SIDE-G%203512%20LED%20Datasheet.pdf - side firing LED
+
+// Different LED (that I dont think i will use: http://www.normandled.com/upload/202106/SK6805SIDE-FRGBW-BW-P6%20LED%20Datasheet.pdf - Side firing LED
 //------------------------------Libraries----------------------------------
 #include "ESP32.h"
 #include "HX711.h"
