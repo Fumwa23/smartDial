@@ -2,7 +2,7 @@
 
 //------------------------------Components---------------------------------
 // AS5600: https://www.mouser.sg/datasheet/2/588/AS5600_DS000365_5_00-1877365.pdf - magnetic enc
-// ESP32:  https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+// ESP32:  https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf typical application: https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch.pdf
 // SN74HC595DR:https://datasheet.lcsc.com/lcsc/1809192316_Texas-Instruments-SN74HC595DR_C10092.pdf, https://www.instructables.com/Shift-Register-LED-Array-Arduino-5-Examples/ - shift register
 // HX711: https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf - strain gauge sensor
 
