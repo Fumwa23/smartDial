@@ -9,7 +9,7 @@
 // TMC6300-LA: https://datasheet.lcsc.com/lcsc/2211181800_TRINAMIC-Motion-Control-GmbH-TMC6300-LA-T_C5274455.pdf - BLDC motor controll
 // VEML7700-TR: https://datasheet.lcsc.com/lcsc/2211160930_Vishay-Intertech-VEML7700-TR_C504893.pdf - Ambient light sensor
 // SK6805 SIDE-G: http://www.normandled.com/upload/201912/SK6805SIDE-G%203512%20LED%20Datasheet.pdf - side firing LED
-
+// Datasheet of similar board: https://docs.sparkfun.com/SparkFun_IoT_Brushless_Motor_Driver/assets/board_files/schematic.pdf?_gl=1*1t9ye71*_ga*MTUwMzc3MTM5Mi4xNzA3MzMxNDk4*_ga_T369JS7J9N*MTcwNzMzMTQ5OC4xLjEuMTcwNzMzMjEyOC40MC4wLjA
 // Different LED (that I dont think i will use: http://www.normandled.com/upload/202106/SK6805SIDE-FRGBW-BW-P6%20LED%20Datasheet.pdf - Side firing LED
 //------------------------------Libraries----------------------------------
 #include "ESP32.h"
