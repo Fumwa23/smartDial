@@ -18,3 +18,4 @@ Notes:
 - bluetooth module?
 - maybe a slot so the VEML7700 light sensor/equivelant can be added on later.
 - Use arduino Simple Field Oriented Control LIbrary
+- Motor connected to 5v line

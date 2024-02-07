@@ -14,8 +14,8 @@
 //------------------------------Libraries----------------------------------
 #include "ESP32.h"
 #include "HX711.h"
-
-
+#include "Simplefield" // add this library it is usefull
+// 
 
 //---------------------------- Set constants -------------------------------
 
