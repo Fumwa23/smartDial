@@ -11,6 +11,7 @@
 // SK6805 SIDE-G: http://www.normandled.com/upload/201912/SK6805SIDE-G%203512%20LED%20Datasheet.pdf - side firing LED
 // Datasheet of similar board: https://docs.sparkfun.com/SparkFun_IoT_Brushless_Motor_Driver/assets/board_files/schematic.pdf?_gl=1*1t9ye71*_ga*MTUwMzc3MTM5Mi4xNzA3MzMxNDk4*_ga_T369JS7J9N*MTcwNzMzMTQ5OC4xLjEuMTcwNzMzMjEyOC40MC4wLjA
 // Different LED (that I dont think i will use: http://www.normandled.com/upload/202106/SK6805SIDE-FRGBW-BW-P6%20LED%20Datasheet.pdf - Side firing LED
+// DRV8311 motor driver: https://www.ti.com/cn/lit/ds/symlink/drv8311.pdf?ts=1707331097347&ref_url=https%253A%252F%252Fwww.lcsc.com%252F
 //------------------------------Libraries----------------------------------
 #include "ESP32.h"
 #include "HX711.h"
